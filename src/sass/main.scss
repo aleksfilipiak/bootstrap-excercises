@@ -1,0 +1,20 @@
+$theme-colors: (
+        'primary': #521751,
+        'danger': #fd7e14,
+        'dark' :#282828,
+);
+
+
+
+
+.parent{
+  position: relative;
+}
+
+.phone{
+  position: absolute;
+  right: 28px;
+  z-index: 1;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
